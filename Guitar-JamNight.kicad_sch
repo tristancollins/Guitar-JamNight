@@ -4354,6 +4354,12 @@
 		(uuid "21eabce8-937b-495a-891f-9e498a203796")
 	)
 	(junction
+		(at 133.35 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28550c5a-a19d-437d-bac5-86c514e81517")
+	)
+	(junction
 		(at 127.254 72.136)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4406,6 +4412,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f943a3b-10d2-4f0e-870d-96a8c594890d")
+	)
+	(junction
+		(at 109.474 72.136)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46209ba3-5738-45bc-b4b7-8cf0b031246d")
 	)
 	(junction
 		(at 216.662 108.204)
@@ -4522,6 +4534,12 @@
 		(uuid "7dfbed30-fcc9-4f89-9c0d-ec4bcd0dfc5a")
 	)
 	(junction
+		(at 148.59 61.468)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "800b50f2-795d-476d-a92e-6fc5094a1671")
+	)
+	(junction
 		(at 175.768 128.524)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4562,6 +4580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e136a5-df21-4f46-a336-a08068b014df")
+	)
+	(junction
+		(at 157.48 72.136)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94c2ec67-132e-4a5d-b247-f02db5d33022")
 	)
 	(junction
 		(at 188.468 119.126)
@@ -4648,6 +4672,12 @@
 		(uuid "b5a2ab57-8aac-4f1d-a2bf-dba199173cd1")
 	)
 	(junction
+		(at 102.108 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba00d412-1e7d-4b28-8120-43f6323a292c")
+	)
+	(junction
 		(at 208.026 53.848)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4676,6 +4706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1148dbb-d51e-42fc-84e6-69a8ee86497a")
+	)
+	(junction
+		(at 140.97 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d10380d4-54b7-4ff7-aaaf-f6fd4666a322")
 	)
 	(junction
 		(at 114.554 137.16)
@@ -4904,6 +4940,16 @@
 			(type default)
 		)
 		(uuid "09f984eb-495f-4cb6-9ec6-d56066e26883")
+	)
+	(wire
+		(pts
+			(xy 109.474 72.136) (xy 102.108 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab30177-e0d3-429d-8a2b-9bc75d406aac")
 	)
 	(wire
 		(pts
@@ -5247,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 137.16) (xy 143.764 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2797a840-00db-4fda-8786-7f4936967f07")
+	)
+	(wire
+		(pts
 			(xy 134.112 59.69) (xy 133.604 59.69)
 		)
 		(stroke
@@ -5344,6 +5400,16 @@
 			(type default)
 		)
 		(uuid "3130298a-bb5f-4978-9a73-c608db3e922b")
+	)
+	(wire
+		(pts
+			(xy 148.59 61.468) (xy 157.48 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dc3fd7-52e1-4da4-8e8f-b3f0bfdc9ca7")
 	)
 	(wire
 		(pts
@@ -5494,6 +5560,16 @@
 			(type default)
 		)
 		(uuid "3f38e312-774d-44b3-9229-917945b73cf7")
+	)
+	(wire
+		(pts
+			(xy 134.366 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f880ba0-78b4-4fbd-8093-e7f12ad632d1")
 	)
 	(wire
 		(pts
@@ -5767,6 +5843,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 68.834) (xy 157.48 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fa3254-db26-490e-811e-81edbd8c39bb")
+	)
+	(wire
+		(pts
 			(xy 208.026 51.054) (xy 208.026 53.848)
 		)
 		(stroke
@@ -5784,6 +5870,16 @@
 			(type default)
 		)
 		(uuid "58c40a84-2974-43fe-95ce-e53bb74638c8")
+	)
+	(wire
+		(pts
+			(xy 139.446 130.81) (xy 140.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af76e4b-5cb7-4700-9a1f-be07d6778997")
 	)
 	(wire
 		(pts
@@ -5894,6 +5990,16 @@
 			(type default)
 		)
 		(uuid "61b70596-489c-497c-bc88-23c302681cbf")
+	)
+	(wire
+		(pts
+			(xy 102.108 62.23) (xy 102.108 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6297aac6-cd7e-4aa9-a17f-4cd8fed577df")
 	)
 	(wire
 		(pts
@@ -6217,6 +6323,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 130.81) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf3dbef-ee4e-4eb2-a034-7c135a943650")
+	)
+	(wire
+		(pts
 			(xy 160.528 83.058) (xy 175.768 83.058)
 		)
 		(stroke
@@ -6457,7 +6573,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 137.16) (xy 133.35 129.54)
+			(xy 133.35 129.54) (xy 133.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6667,7 +6783,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 72.136) (xy 148.59 72.136)
+			(xy 180.34 72.136) (xy 157.48 72.136)
 		)
 		(stroke
 			(width 0)
@@ -6724,6 +6840,16 @@
 			(type default)
 		)
 		(uuid "a60def09-2e82-4752-8e77-fc7b4436f2e4")
+	)
+	(wire
+		(pts
+			(xy 109.474 62.23) (xy 109.474 63.754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61e45f4-fb28-4101-b0a9-d7832d8a3ffb")
 	)
 	(wire
 		(pts
@@ -6814,6 +6940,16 @@
 			(type default)
 		)
 		(uuid "af6c4617-09e8-428b-bc9f-56e77f3952ca")
+	)
+	(wire
+		(pts
+			(xy 157.48 61.468) (xy 157.48 63.754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e72f09-4ee8-4002-8567-0182c95bb5bc")
 	)
 	(wire
 		(pts
@@ -7047,7 +7183,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.108 60.96) (xy 102.108 62.738)
+			(xy 102.108 60.96) (xy 102.108 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7064,6 +7200,16 @@
 			(type default)
 		)
 		(uuid "c2230dc8-addf-4910-b19e-c03fa7fb6b59")
+	)
+	(wire
+		(pts
+			(xy 148.59 61.468) (xy 148.59 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23fc0ee-9902-460a-b417-f0a64f8a4e8b")
 	)
 	(wire
 		(pts
@@ -7087,7 +7233,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 72.136) (xy 102.108 72.136)
+			(xy 119.38 72.136) (xy 109.474 72.136)
 		)
 		(stroke
 			(width 0)
@@ -7097,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 60.706) (xy 148.59 62.738)
+			(xy 148.59 60.706) (xy 148.59 61.468)
 		)
 		(stroke
 			(width 0)
@@ -7114,6 +7260,16 @@
 			(type default)
 		)
 		(uuid "c527997d-0823-4764-af99-5dd5329b57ab")
+	)
+	(wire
+		(pts
+			(xy 157.48 72.136) (xy 148.59 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bcca79-0bf8-4228-b3a7-da1bcdb2b18a")
 	)
 	(wire
 		(pts
@@ -7437,6 +7593,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 130.81) (xy 140.97 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e243ac60-fe1b-4c29-b00d-f3538a93efa2")
+	)
+	(wire
+		(pts
 			(xy 216.662 105.664) (xy 219.202 105.664)
 		)
 		(stroke
@@ -7557,6 +7723,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.474 68.834) (xy 109.474 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0564eec-bf33-40be-9588-8f935204c9a6")
+	)
+	(wire
+		(pts
 			(xy 151.13 39.878) (xy 159.766 39.878)
 		)
 		(stroke
@@ -7564,6 +7740,16 @@
 			(type default)
 		)
 		(uuid "f0f99959-cc11-43be-a58e-003c37569026")
+	)
+	(wire
+		(pts
+			(xy 102.108 62.23) (xy 109.474 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10b05ca-b1bb-490b-ac26-d8368622c2e7")
 	)
 	(wire
 		(pts
@@ -7607,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 137.16) (xy 143.764 137.16)
+			(xy 139.446 137.16) (xy 140.97 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9853,7 +10039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "82k"
 			(at 182.88 66.548 0)
 			(effects
 				(font
@@ -10335,6 +10521,75 @@
 			(project "Guitar-JamNight"
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 157.48 66.294 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "426dfcfd-0975-42a8-8fe3-241432e32c6e")
+		(property "Reference" "C22"
+			(at 159.766 64.516 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 159.766 67.056 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 157.48 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56db7970-a7f8-4942-b32b-8d32d65fe24c")
+		)
+		(pin "1"
+			(uuid "1fd15cbf-f399-418d-8e05-8e7be524f117")
+		)
+		(instances
+			(project "Guitar-JamNight"
+				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13960,6 +14215,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 109.474 66.294 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1467fc3-5f19-4d04-b94d-5d73a1dc9c5b")
+		(property "Reference" "C13"
+			(at 111.76 64.516 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 111.76 67.056 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.474 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.474 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 109.474 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bf07321-1a8e-4ac0-9e65-1d96afc3f8c2")
+		)
+		(pin "1"
+			(uuid "2c14ddad-ee48-4574-a5f4-83a1deecbfc1")
+		)
+		(instances
+			(project "Guitar-JamNight"
+				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 252.222 64.262 0)
 		(unit 1)
@@ -14407,6 +14731,73 @@
 			(project "Guitar-JamNight"
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JamNightLibrary:R_Small_TC")
+		(at 136.906 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d95fdbeb-4ea3-476d-86c2-f13f11de86b7")
+		(property "Reference" "R40"
+			(at 136.906 126.492 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "4.7k 5W"
+			(at 136.906 128.778 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.906 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.906 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 136.906 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f56e58-e58e-4923-9e14-d9a66747099c")
+		)
+		(pin "2"
+			(uuid "84eb3d94-3662-4a34-9709-a21d2f026ac9")
+		)
+		(instances
+			(project "Guitar-JamNight"
+				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
+					(reference "R40")
 					(unit 1)
 				)
 			)
