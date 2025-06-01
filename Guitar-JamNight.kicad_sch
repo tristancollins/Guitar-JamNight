@@ -4669,16 +4669,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Potential different tone stack"
-		(exclude_from_sim no)
-		(at 245.11 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "003e8d39-0454-40c4-a3b1-fba4889ad777")
-	)
 	(text "Gain"
 		(exclude_from_sim no)
 		(at 77.47 59.69 0)
@@ -4778,9 +4768,9 @@
 		)
 		(uuid "479651ff-c703-4398-97c0-ed0232fc482a")
 	)
-	(text "Trim pot\nSet to ~750k/250k"
+	(text "Trim pot\nSet to\n~750k/250k"
 		(exclude_from_sim no)
-		(at 134.62 55.88 0)
+		(at 135.636 57.15 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4788,6 +4778,18 @@
 			(justify left bottom)
 		)
 		(uuid "5b06c0a7-372e-4d6f-9bec-0dd0a2658320")
+	)
+	(text "*scaled from Merlin's book for 470k pots"
+		(exclude_from_sim no)
+		(at 206.248 41.148 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ce46f0e-d0f2-48d6-bd25-e894611108ff")
 	)
 	(text "302V"
 		(exclude_from_sim no)
@@ -4822,20 +4824,9 @@
 		)
 		(uuid "7df24425-7c5e-4048-876c-a0de7187821e")
 	)
-	(text "Treble"
+	(text "Tilt"
 		(exclude_from_sim no)
-		(at 254 43.18 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8307d976-7b19-45e2-8bfb-006d567d3b41")
-	)
-	(text "Treble"
-		(exclude_from_sim no)
-		(at 212.09 45.72 0)
+		(at 219.202 59.436 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4844,20 +4835,9 @@
 		)
 		(uuid "854b74db-d274-4f97-b20d-092293d32a41")
 	)
-	(text "Bass"
+	(text "Middle"
 		(exclude_from_sim no)
-		(at 256.54 53.34 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8789fd54-4f52-4c9b-aad7-cbe9255265bc")
-	)
-	(text "Bass"
-		(exclude_from_sim no)
-		(at 191.77 69.85 0)
+		(at 200.914 60.96 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4879,7 +4859,7 @@
 	)
 	(text "Master"
 		(exclude_from_sim no)
-		(at 222.25 50.8 0)
+		(at 233.68 50.8 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5007,12 +4987,6 @@
 			)
 		)
 		(uuid "eb48629b-dee2-459c-bd5c-1c0dfea42cbb")
-	)
-	(junction
-		(at 252.73 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00ddda6a-7705-42d1-a1d8-49dca04bf3fe")
 	)
 	(junction
 		(at 31.75 62.23)
@@ -5267,12 +5241,6 @@
 		(uuid "8198985d-64c9-457e-9959-ecaaa7e8d0a7")
 	)
 	(junction
-		(at 237.49 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "885fb959-1510-4639-833f-36ab881de011")
-	)
-	(junction
 		(at 125.73 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5417,12 +5385,6 @@
 		(uuid "b3a7e86a-1063-4520-acf1-7bc8632de2d2")
 	)
 	(junction
-		(at 252.73 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5a2ab57-8aac-4f1d-a2bf-dba199173cd1")
-	)
-	(junction
 		(at 99.06 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5513,18 +5475,6 @@
 		(uuid "dfdd972e-7583-438c-8942-d645f8755d99")
 	)
 	(junction
-		(at 252.73 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1de5415-f0d4-4917-97e6-6d041023b12b")
-	)
-	(junction
-		(at 237.49 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e40933bc-129c-4290-b9df-47ab87b08a83")
-	)
-	(junction
 		(at 116.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5561,10 +5511,10 @@
 		(uuid "f7697f1b-783f-4bcc-9c0b-9af3c5b45ed6")
 	)
 	(junction
-		(at 237.49 40.64)
+		(at 217.17 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd6123aa-cda3-43ba-9599-40729a582236")
+		(uuid "fe3df822-8c77-499d-a104-eba06a1dea69")
 	)
 	(wire
 		(pts
@@ -5588,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a64fe9-50fb-4470-aae6-cd25f78fa991")
-	)
-	(wire
-		(pts
 			(xy 114.3 102.87) (xy 114.3 104.14)
 		)
 		(stroke
@@ -5615,16 +5555,6 @@
 			(type default)
 		)
 		(uuid "01fa7b1d-f298-40c9-85c4-f1719d853f1e")
-	)
-	(wire
-		(pts
-			(xy 252.73 57.15) (xy 252.73 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02be83c2-1f6a-460b-b334-e82327d62efc")
 	)
 	(wire
 		(pts
@@ -5705,16 +5635,6 @@
 			(type default)
 		)
 		(uuid "075fd3a5-b33a-4fe7-b3df-e4bfebf3453f")
-	)
-	(wire
-		(pts
-			(xy 252.73 40.64) (xy 252.73 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f984eb-495f-4cb6-9ec6-d56066e26883")
 	)
 	(wire
 		(pts
@@ -5828,16 +5748,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 72.39) (xy 210.82 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11daaf38-fd9c-4234-a880-fd567fda81f2")
-	)
-	(wire
-		(pts
 			(xy 35.56 123.19) (xy 30.48 123.19)
 		)
 		(stroke
@@ -5845,6 +5755,16 @@
 			(type default)
 		)
 		(uuid "1245b032-2acc-46cc-a91e-bb236f5ae819")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134880c9-32c8-4e2e-8422-8f68185a954c")
 	)
 	(wire
 		(pts
@@ -5888,26 +5808,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 59.69) (xy 237.49 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190c6dde-ed73-4863-93f1-58ee2507eb33")
-	)
-	(wire
-		(pts
-			(xy 261.62 68.58) (xy 252.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190e3083-e15a-4c76-bc64-881f0a6fd6d3")
-	)
-	(wire
-		(pts
 			(xy 116.84 59.69) (xy 119.38 59.69)
 		)
 		(stroke
@@ -5935,36 +5835,6 @@
 			(type default)
 		)
 		(uuid "1aa29ea5-581b-45d5-8707-c43d9eed958b")
-	)
-	(wire
-		(pts
-			(xy 252.73 46.99) (xy 252.73 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9fef56-13e3-40c5-94aa-88f49d37cc1e")
-	)
-	(polyline
-		(pts
-			(xy 229.87 31.75) (xy 269.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "1cc83011-f66d-4773-890e-b17b3f8558fa")
-	)
-	(wire
-		(pts
-			(xy 210.82 63.5) (xy 201.93 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2a17aa-ac8c-4dca-8dbf-79be3fb57f3e")
 	)
 	(wire
 		(pts
@@ -6098,16 +5968,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 40.64) (xy 240.03 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241bd4eb-4c3d-4379-9f41-4aeed5670490")
-	)
-	(wire
-		(pts
 			(xy 30.48 115.57) (xy 35.56 115.57)
 		)
 		(stroke
@@ -6165,6 +6025,16 @@
 			(type default)
 		)
 		(uuid "2890d654-d28c-424f-8ab2-07c57dd70da3")
+	)
+	(wire
+		(pts
+			(xy 217.17 41.91) (xy 231.14 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c0a779-6c5e-47d1-9e9c-6a4d8b4b9962")
 	)
 	(wire
 		(pts
@@ -6268,16 +6138,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 40.64) (xy 237.49 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "323abe9f-2668-45c6-994d-ec68339c58ca")
-	)
-	(wire
-		(pts
 			(xy 76.2 110.49) (xy 76.2 102.87)
 		)
 		(stroke
@@ -6295,6 +6155,16 @@
 			(type default)
 		)
 		(uuid "32f0ef58-4252-4efb-951d-8c7918804cad")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f218d4-5436-4879-bacd-bde510edad31")
 	)
 	(wire
 		(pts
@@ -6348,16 +6218,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 68.58) (xy 252.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3831b282-c0a7-460f-b817-58cb4eb7502f")
-	)
-	(wire
-		(pts
 			(xy 74.93 57.15) (xy 74.93 72.39)
 		)
 		(stroke
@@ -6405,16 +6265,6 @@
 			(type default)
 		)
 		(uuid "39faab56-2a98-46e9-8cbb-181dffb03e4e")
-	)
-	(wire
-		(pts
-			(xy 245.11 50.8) (xy 252.73 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b4b563f-6a27-4bea-a5ef-9a3eab42ee0e")
 	)
 	(wire
 		(pts
@@ -6558,16 +6408,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 59.69) (xy 252.73 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4847e463-d609-430c-bddb-059acbeede7d")
-	)
-	(wire
-		(pts
 			(xy 252.73 100.33) (xy 254 100.33)
 		)
 		(stroke
@@ -6655,16 +6495,6 @@
 			(type default)
 		)
 		(uuid "4cac4dfa-11a9-443b-8026-665c2446afe3")
-	)
-	(wire
-		(pts
-			(xy 252.73 50.8) (xy 255.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc049ad-c444-4a21-8deb-f334a4ff8f53")
 	)
 	(wire
 		(pts
@@ -6838,16 +6668,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 59.69) (xy 252.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc3ca79-6f67-4e36-917f-ac81374a8c5b")
-	)
-	(wire
-		(pts
 			(xy 68.58 149.86) (xy 64.77 149.86)
 		)
 		(stroke
@@ -6875,16 +6695,6 @@
 			(type default)
 		)
 		(uuid "5e742934-c0e5-4fcb-8234-ecf0db8074af")
-	)
-	(polyline
-		(pts
-			(xy 269.24 72.39) (xy 269.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "5f89072f-c082-4a9a-8402-0894b52a25bb")
 	)
 	(wire
 		(pts
@@ -7016,16 +6826,6 @@
 		)
 		(uuid "69aabe5e-b306-4928-aa78-a0a84f9cd335")
 	)
-	(polyline
-		(pts
-			(xy 229.87 72.39) (xy 269.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "69d69627-f7d2-479d-a502-9fe630ca0518")
-	)
 	(wire
 		(pts
 			(xy 182.88 53.34) (xy 182.88 62.23)
@@ -7068,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 55.88) (xy 219.71 72.39)
+			(xy 231.14 55.88) (xy 231.14 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7098,16 +6898,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 106.68) (xy 149.86 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e73c079-18c2-4223-a9e4-0370cb0fe685")
-	)
-	(wire
-		(pts
 			(xy 80.01 54.61) (xy 80.01 52.07)
 		)
 		(stroke
@@ -7118,7 +6908,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 43.18) (xy 201.93 43.18)
+			(xy 199.39 43.18) (xy 210.82 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7195,16 +6985,6 @@
 			(type default)
 		)
 		(uuid "782eccbd-4c6c-43f8-b58e-3bb3a80be2e5")
-	)
-	(wire
-		(pts
-			(xy 252.73 67.31) (xy 252.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a3a8983-5da1-415e-b8a8-11bc42cd50c5")
 	)
 	(wire
 		(pts
@@ -7298,16 +7078,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 50.8) (xy 240.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f329309-3129-48f3-8cf4-e240523ac83c")
-	)
-	(wire
-		(pts
 			(xy 101.6 39.37) (xy 110.49 39.37)
 		)
 		(stroke
@@ -7315,16 +7085,6 @@
 			(type default)
 		)
 		(uuid "8028c20c-d163-4cd8-ae39-0a44de22f65a")
-	)
-	(wire
-		(pts
-			(xy 213.36 48.26) (xy 219.71 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807c43db-e229-418e-8969-bea8adcdafb9")
 	)
 	(wire
 		(pts
@@ -7418,7 +7178,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 106.68) (xy 149.86 74.93)
+			(xy 148.59 106.68) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7435,6 +7195,16 @@
 			(type default)
 		)
 		(uuid "8adde83f-07a3-4266-8a21-fd7233aecd77")
+	)
+	(wire
+		(pts
+			(xy 205.74 41.91) (xy 217.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0c82b3-fd6b-48fc-9c4a-75fc713e601e")
 	)
 	(wire
 		(pts
@@ -7458,7 +7228,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 53.34) (xy 222.25 53.34)
+			(xy 236.22 53.34) (xy 233.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7475,6 +7245,16 @@
 			(type default)
 		)
 		(uuid "8e069f48-44e1-4efa-a52c-65dd853359d1")
+	)
+	(wire
+		(pts
+			(xy 217.17 55.88) (xy 217.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e74c3af-5db0-40bd-8349-feef1c6962b0")
 	)
 	(wire
 		(pts
@@ -7628,16 +7408,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 50.8) (xy 255.27 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5403db-a6f2-4221-8afd-0883ffbdf77e")
-	)
-	(wire
-		(pts
 			(xy 125.73 67.31) (xy 125.73 72.39)
 		)
 		(stroke
@@ -7758,16 +7528,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 40.64) (xy 237.49 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a60def09-2e82-4752-8e77-fc7b4436f2e4")
-	)
-	(wire
-		(pts
 			(xy 106.68 62.23) (xy 106.68 63.5)
 		)
 		(stroke
@@ -7808,7 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 210.82 53.34)
+			(xy 199.39 53.34) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7855,16 +7615,6 @@
 			(type default)
 		)
 		(uuid "aee53a1f-783f-4499-a223-9ed4c4e36b41")
-	)
-	(wire
-		(pts
-			(xy 252.73 50.8) (xy 252.73 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2c7253-0cc2-48e0-80d1-b2416adeeb36")
 	)
 	(wire
 		(pts
@@ -7948,6 +7698,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 72.39) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e0e878-a4be-42c2-afce-f90cb0ca9f29")
+	)
+	(wire
+		(pts
 			(xy 124.46 59.69) (xy 125.73 59.69)
 		)
 		(stroke
@@ -7975,16 +7735,6 @@
 			(type default)
 		)
 		(uuid "b93952cd-2bc3-4f7f-ba41-f3252177a2e0")
-	)
-	(wire
-		(pts
-			(xy 237.49 50.8) (xy 237.49 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b943f1c8-e9c9-489a-9f10-09fae68440fc")
 	)
 	(wire
 		(pts
@@ -8025,16 +7775,6 @@
 			(type default)
 		)
 		(uuid "bc017fed-9fb0-4a2f-9bf9-595b9dc26b53")
-	)
-	(wire
-		(pts
-			(xy 237.49 59.69) (xy 240.03 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc61aa7a-7f80-4a3e-a95a-dcb8f17fda08")
 	)
 	(wire
 		(pts
@@ -8088,16 +7828,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 43.18) (xy 210.82 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02d88b1-14e6-46d7-80fb-c9feb56db2c3")
-	)
-	(wire
-		(pts
 			(xy 105.41 144.78) (xy 105.41 146.05)
 		)
 		(stroke
@@ -8115,6 +7845,16 @@
 			(type default)
 		)
 		(uuid "c11711a8-d39f-4d54-95f3-88beec6d5aad")
+	)
+	(wire
+		(pts
+			(xy 156.21 106.68) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11cb3a6-bcce-4c7a-856c-226144a78810")
 	)
 	(wire
 		(pts
@@ -8138,7 +7878,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 48.26) (xy 219.71 50.8)
+			(xy 231.14 41.91) (xy 231.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8225,6 +7965,16 @@
 			(type default)
 		)
 		(uuid "c7c6ca29-4065-47ec-ab31-8695b693d7f4")
+	)
+	(wire
+		(pts
+			(xy 217.17 49.53) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c897fc29-9b70-44e8-a41a-695a855cc7c7")
 	)
 	(wire
 		(pts
@@ -8426,16 +8176,6 @@
 		)
 		(uuid "d78128d1-1f14-4ddb-a911-52b75bd34c0e")
 	)
-	(polyline
-		(pts
-			(xy 229.87 31.75) (xy 229.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d7b9018a-f817-4e61-934a-2f549f7213f6")
-	)
 	(wire
 		(pts
 			(xy 76.2 115.57) (xy 76.2 134.62)
@@ -8498,7 +8238,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 224.79 74.93)
+			(xy 148.59 74.93) (xy 236.22 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8518,23 +8258,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 74.93) (xy 224.79 53.34)
+			(xy 236.22 74.93) (xy 236.22 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd436bfb-4ea5-47e7-839b-a67f065dba80")
-	)
-	(wire
-		(pts
-			(xy 255.27 44.45) (xy 261.62 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfbf8a4c-8e38-4da6-b7bf-f849c299061f")
 	)
 	(wire
 		(pts
@@ -8608,6 +8338,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 63.5) (xy 210.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8efac7c-06b2-4ab9-833c-228f796a5478")
+	)
+	(wire
+		(pts
 			(xy 35.56 121.92) (xy 35.56 123.19)
 		)
 		(stroke
@@ -8635,16 +8375,6 @@
 			(type default)
 		)
 		(uuid "eace120f-0c71-4204-9d92-f1593d4d234e")
-	)
-	(wire
-		(pts
-			(xy 237.49 46.99) (xy 237.49 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead0b1f5-2e14-4c58-a0d4-ee2992a9db7f")
 	)
 	(wire
 		(pts
@@ -8738,16 +8468,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 40.64) (xy 252.73 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f17011c9-50f1-4b19-9fa3-ab0b960fc02b")
-	)
-	(wire
-		(pts
 			(xy 101.6 119.38) (xy 114.3 119.38)
 		)
 		(stroke
@@ -8838,6 +8558,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 106.68) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce15265-9b50-47f7-b49a-ed2213ae00c5")
+	)
+	(wire
+		(pts
 			(xy 148.59 146.05) (xy 148.59 144.78)
 		)
 		(stroke
@@ -8858,6 +8588,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 44.45) (xy 217.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe976bed-c66f-46d3-a827-e1bde7c69684")
+	)
+	(wire
+		(pts
 			(xy 30.48 106.68) (xy 30.48 109.22)
 		)
 		(stroke
@@ -8865,6 +8605,16 @@
 			(type default)
 		)
 		(uuid "ff1ebf7f-d182-4c13-ba0f-2ffd4b210278")
+	)
+	(wire
+		(pts
+			(xy 205.74 50.8) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7f4f77-4fe2-43b0-8cb6-7005da518a14")
 	)
 	(wire
 		(pts
@@ -9251,6 +9001,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02d2e865-87ba-4b40-9f84-796a3549fc2f")
+		(property "Reference" "C21"
+			(at 217.932 45.212 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2n"
+			(at 217.932 48.768 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" ""
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" ""
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPURL" ""
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdaa598f-0bbb-490d-84aa-7386ac014daf")
+		)
+		(pin "2"
+			(uuid "7184d88f-2498-4ad5-82ad-18d62b871a5d")
+		)
+		(instances
+			(project "Guitar-JamNight"
+				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Valve:ECC83")
 		(at 185.42 39.37 0)
 		(unit 2)
@@ -9615,7 +9479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
-		(at 219.71 53.34 0)
+		(at 231.14 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9624,7 +9488,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dbde7e5-090b-4cdb-a5ea-eb9e2703bff3")
 		(property "Reference" "RV6"
-			(at 218.186 52.07 0)
+			(at 229.616 52.07 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9633,7 +9497,7 @@
 			)
 		)
 		(property "Value" "1Meg A"
-			(at 218.186 54.61 0)
+			(at 229.616 54.61 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9642,7 +9506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 53.34 0)
+			(at 231.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 53.34 0)
+			(at 231.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9524,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 219.71 53.34 0)
+			(at 231.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9690,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 199.39 48.26 0)
+		(at 199.39 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9834,15 +9698,15 @@
 		(dnp no)
 		(uuid "10bdfd27-b3c4-468f-94a4-699754a778b9")
 		(property "Reference" "R36"
-			(at 201.422 48.26 90)
+			(at 201.422 63.5 90)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Value" "220k"
-			(at 197.612 48.26 90)
+		(property "Value" "470k"
+			(at 197.612 63.5 90)
 			(effects
 				(font
 					(size 1 1)
@@ -9850,7 +9714,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 199.39 48.26 0)
+			(at 199.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +9723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 48.26 0)
+			(at 199.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +9732,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 199.39 48.26 0)
+			(at 199.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +9741,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 106.68 124.46 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9750,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 106.68 124.46 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,7 +9759,7 @@
 			)
 		)
 		(property "SPR" ""
-			(at 106.68 124.46 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +9768,7 @@
 			)
 		)
 		(property "SPN" ""
-			(at 106.68 124.46 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +9777,7 @@
 			)
 		)
 		(property "SPURL" ""
-			(at 106.68 124.46 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,120 +10082,6 @@
 			(project ""
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 242.57 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1766f170-e10a-4a99-a81a-38c7c731c669")
-		(property "Reference" "C24"
-			(at 240.03 59.055 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 245.11 59.055 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 306.07 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 306.07 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 306.07 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 306.07 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 306.07 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6922305d-32f5-43a4-a2ee-2ab9516e1e22")
-		)
-		(pin "1"
-			(uuid "a96c19be-48d1-4c20-9fbc-e6747c893958")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12655,7 +12405,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
-		(at 210.82 48.26 0)
+		(at 205.74 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12663,7 +12413,7 @@
 		(dnp no)
 		(uuid "6aa8b162-027a-4787-aa5b-8d236b3069c4")
 		(property "Reference" "RV5"
-			(at 206.375 48.26 90)
+			(at 205.74 57.785 90)
 			(effects
 				(font
 					(size 1 1)
@@ -12671,7 +12421,7 @@
 			)
 		)
 		(property "Value" "470k Lin"
-			(at 208.28 48.26 90)
+			(at 205.74 55.88 90)
 			(effects
 				(font
 					(size 1 1)
@@ -12679,7 +12429,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical"
-			(at 210.82 48.26 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +12438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 48.26 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12447,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 210.82 48.26 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12456,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 82.55 119.38 0)
+			(at 276.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12465,7 @@
 			)
 		)
 		(property "MPN" "1729131"
-			(at 82.55 119.38 0)
+			(at 276.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,7 +12474,7 @@
 			)
 		)
 		(property "SPR" ""
-			(at 82.55 119.38 0)
+			(at 276.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +12483,7 @@
 			)
 		)
 		(property "SPN" "651-1729131"
-			(at 82.55 119.38 0)
+			(at 276.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,7 +12492,7 @@
 			)
 		)
 		(property "SPURL" ""
-			(at 82.55 119.38 0)
+			(at 276.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12902,121 +12652,6 @@
 			(project ""
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "RV9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 252.73 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76f1648c-820c-4ae3-9ddc-11cd1dc6e45b")
-		(property "Reference" "RV7"
-			(at 248.285 54.61 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "250k Lin"
-			(at 250.19 54.61 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical"
-			(at 252.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 252.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1729131"
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "651-1729131"
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad4c987d-2f2c-47db-814d-1554bba9dc94")
-		)
-		(pin "2"
-			(uuid "5232d262-4a11-425a-b31b-dc19a0f182dc")
-		)
-		(pin "3"
-			(uuid "6d5e0a40-6a59-4cae-bbce-455a67b4f4e3")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -14639,7 +14274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "1n"
 			(at 211.582 60.198 0)
 			(effects
 				(font
@@ -14933,232 +14568,6 @@
 			(project "Guitar-JamNight"
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 237.49 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b39565b5-992a-496d-8b49-c260190faa75")
-		(property "Reference" "R38"
-			(at 239.522 44.45 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 235.712 44.45 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc5a13d3-33c4-4927-8ba4-b512cc43dd6a")
-		)
-		(pin "2"
-			(uuid "b75652e0-6df9-4813-a5fe-5fc91ae0b09c")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 242.57 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6b47388-24ad-461f-92d9-5624e241f800")
-		(property "Reference" "C23"
-			(at 240.03 50.165 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
-			(at 242.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "541ca3ac-f34f-4626-8c9e-11f283be9156")
-		)
-		(pin "1"
-			(uuid "c222db57-5d6c-47c0-bdeb-9905be604563")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -15648,121 +15057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 252.73 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8ed0af0-f6c7-4b79-b8b1-882eed1289ed")
-		(property "Reference" "RV8"
-			(at 248.285 44.45 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "250k Lin"
-			(at 250.19 44.45 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical"
-			(at 252.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 252.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1729131"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "651-1729131"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdc38fa2-e7c8-405e-a784-3f54d022ab11")
-		)
-		(pin "2"
-			(uuid "a17bcacb-e203-4af0-9fec-df5418ebc46d")
-		)
-		(pin "3"
-			(uuid "7ebf6e75-a0bd-4b08-9013-69a5f41d1155")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "RV8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Valve:ECC83")
 		(at 153.67 50.8 0)
 		(unit 1)
@@ -16077,118 +15371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 252.73 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5ac3f43-37f5-41e0-8067-aac2f9acedd9")
-		(property "Reference" "R39"
-			(at 254.762 64.77 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22k"
-			(at 250.952 64.77 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 252.73 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 252.73 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b7a2421-6383-4982-9179-2d89da78be6a")
-		)
-		(pin "2"
-			(uuid "5799bc28-72ba-4b61-860f-2500dfe39eb2")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Valve:ECC83")
 		(at 101.6 50.8 0)
 		(unit 2)
@@ -16348,8 +15530,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
-		(at 199.39 63.5 0)
-		(mirror x)
+		(at 217.17 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16357,7 +15539,7 @@
 		(dnp no)
 		(uuid "d8329b91-40df-4c36-8ee8-66c6aabade57")
 		(property "Reference" "RV4"
-			(at 194.945 63.5 90)
+			(at 221.615 53.34 90)
 			(effects
 				(font
 					(size 1 1)
@@ -16365,7 +15547,7 @@
 			)
 		)
 		(property "Value" "470k Log"
-			(at 196.85 63.5 90)
+			(at 219.71 53.34 90)
 			(effects
 				(font
 					(size 1 1)
@@ -16373,7 +15555,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical"
-			(at 199.39 63.5 0)
+			(at 217.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16382,7 +15564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 63.5 0)
+			(at 217.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16391,7 +15573,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 199.39 63.5 0)
+			(at 217.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16400,7 +15582,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 95.25 -5.08 0)
+			(at 321.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16409,7 +15591,7 @@
 			)
 		)
 		(property "MPN" "1729131"
-			(at 95.25 -5.08 0)
+			(at 321.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16418,7 +15600,7 @@
 			)
 		)
 		(property "SPR" ""
-			(at 95.25 -5.08 0)
+			(at 321.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +15609,7 @@
 			)
 		)
 		(property "SPN" "651-1729131"
-			(at 95.25 -5.08 0)
+			(at 321.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16436,7 +15618,7 @@
 			)
 		)
 		(property "SPURL" ""
-			(at 95.25 -5.08 0)
+			(at 321.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16749,120 +15931,6 @@
 			(project ""
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 242.57 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd0cc088-7d92-4853-8b94-b1986841e7e4")
-		(property "Reference" "C21"
-			(at 240.03 40.005 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330p"
-			(at 245.11 40.005 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 306.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 306.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 306.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 306.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 306.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ceb88f77-d78b-4963-a1f4-26ee44fca014")
-		)
-		(pin "1"
-			(uuid "fa65afce-cf45-4429-81a2-e9b5de7c5d28")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17275,6 +16343,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 210.82 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eabef692-272c-4606-955d-2dcd44924875")
+		(property "Reference" "R15"
+			(at 212.852 48.26 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "470k"
+			(at 209.042 48.26 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPURL" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66748652-b053-48f2-a975-f269f9f1e64d")
+		)
+		(pin "2"
+			(uuid "f91dbfcd-c88b-48f4-b825-ac1db5623cb7")
+		)
+		(instances
+			(project "Guitar-JamNight"
+				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JamNightLibrary:R_Small_TC")
 		(at 30.48 111.76 180)
 		(unit 1)
@@ -17343,15 +16523,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 204.47 43.18 90)
+		(at 210.82 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f81119d2-930a-4dcc-9488-2d9665db5431")
-		(property "Reference" "C19"
-			(at 201.93 42.545 0)
+		(uuid "f62d0b5f-3092-4ff9-a9a5-4844b99b17da")
+		(property "Reference" "C28"
+			(at 211.582 65.532 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17359,8 +16539,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
-			(at 207.01 42.545 0)
+		(property "Value" "2.2n"
+			(at 211.582 69.088 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17368,8 +16548,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
-			(at 204.47 43.18 0)
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal"
+			(at 210.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17378,7 +16558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 43.18 0)
+			(at 210.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17387,7 +16567,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 204.47 43.18 0)
+			(at 210.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17396,7 +16576,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 267.97 135.89 0)
+			(at 82.55 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17405,7 +16585,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 267.97 135.89 0)
+			(at 82.55 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17414,7 +16594,7 @@
 			)
 		)
 		(property "SPR" ""
-			(at 267.97 135.89 0)
+			(at 82.55 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17423,7 +16603,7 @@
 			)
 		)
 		(property "SPN" ""
-			(at 267.97 135.89 0)
+			(at 82.55 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17432,7 +16612,121 @@
 			)
 		)
 		(property "SPURL" ""
-			(at 267.97 135.89 0)
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "861f0df6-75d8-4e5a-a894-26a004a608e9")
+		)
+		(pin "2"
+			(uuid "f9af6f1a-5b8c-45ab-904b-170a691cde2d")
+		)
+		(instances
+			(project "Guitar-JamNight"
+				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 199.39 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81119d2-930a-4dcc-9488-2d9665db5431")
+		(property "Reference" "C19"
+			(at 198.755 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470p"
+			(at 198.755 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+			(at 199.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 199.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 292.1 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 292.1 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" ""
+			(at 292.1 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" ""
+			(at 292.1 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPURL" ""
+			(at 292.1 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17519,118 +16813,6 @@
 			(project "Guitar-JamNight"
 				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 210.82 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb3ce727-755b-41d5-8c0b-c9b4c761dea0")
-		(property "Reference" "R37"
-			(at 212.852 67.31 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "22k"
-			(at 209.042 67.31 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 97.79 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 97.79 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPR" ""
-			(at 97.79 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 97.79 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPURL" ""
-			(at 97.79 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83c5cade-3a5c-49de-9a02-4a7d23f1409d")
-		)
-		(pin "2"
-			(uuid "d2e69308-3773-4b67-9e68-975bda87504a")
-		)
-		(instances
-			(project "Guitar-JamNight"
-				(path "/1a70714b-8b13-41cb-ba33-37c7f7015ae5"
-					(reference "R37")
 					(unit 1)
 				)
 			)
