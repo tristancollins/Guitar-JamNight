@@ -4779,7 +4779,7 @@
 		)
 		(uuid "5b06c0a7-372e-4d6f-9bec-0dd0a2658320")
 	)
-	(text "*scaled from Merlin's book for 470k pots"
+	(text "*scaled from Merlin's book for 470k pots\nand modified to match the original as far\nas possible"
 		(exclude_from_sim no)
 		(at 206.248 41.148 0)
 		(effects
@@ -4856,6 +4856,17 @@
 			)
 		)
 		(uuid "9256e665-1afd-47a6-8334-7702b7268e57")
+	)
+	(text "*2 x 2.2n in //"
+		(exclude_from_sim no)
+		(at 212.598 71.374 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "93aadabe-c477-4216-862a-9cfda397ed83")
 	)
 	(text "Master"
 		(exclude_from_sim no)
@@ -16539,7 +16550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2n"
+		(property "Value" "4.4n"
 			(at 211.582 69.088 0)
 			(effects
 				(font
@@ -16653,7 +16664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "300p"
 			(at 198.755 45.72 0)
 			(effects
 				(font
