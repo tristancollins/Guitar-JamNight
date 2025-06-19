@@ -4768,17 +4768,6 @@
 		)
 		(uuid "479651ff-c703-4398-97c0-ed0232fc482a")
 	)
-	(text "Trim pot\nSet to\n~750k/250k"
-		(exclude_from_sim no)
-		(at 135.636 57.15 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b06c0a7-372e-4d6f-9bec-0dd0a2658320")
-	)
 	(text "*scaled from Merlin's book for 470k pots\nand modified to match the original as far\nas possible"
 		(exclude_from_sim no)
 		(at 206.248 41.148 0)
@@ -4834,6 +4823,28 @@
 			(justify left bottom)
 		)
 		(uuid "854b74db-d274-4f97-b20d-092293d32a41")
+	)
+	(text "Gain 2"
+		(exclude_from_sim no)
+		(at 136.144 55.626 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "88769d55-6157-4513-8576-451a1a4fec15")
+	)
+	(text "100k trim pot\nset to ~80k to shift\nthe notch down to ~600Hz"
+		(exclude_from_sim no)
+		(at 120.65 78.486 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cbddd70-2557-491f-873b-fb6f335ebf57")
 	)
 	(text "Middle"
 		(exclude_from_sim no)
@@ -16032,7 +16043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "~80k"
 			(at 127.254 66.04 0)
 			(effects
 				(font
